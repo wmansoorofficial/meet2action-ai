@@ -5,7 +5,8 @@ This project is an **AI-powered multi-agent system** built using LangGraph that 
 
 The system processes unstructured text through multiple intelligent agents, applies classification, and incorporates a **Human-in-the-Loop (HIL)** step before exporting finalized tasks.
 
----
+<img width="1536" height="1024" alt="ChatGPT Image Mar 18, 2026, 01_19_16 PM" src="https://github.com/user-attachments/assets/99b2ce9d-2c54-4bc8-b943-571e5a318111" />
+
 
 ## 🛠️ Tech Stack
 - Python (3.10+ recommended)
@@ -13,36 +14,11 @@ The system processes unstructured text through multiple intelligent agents, appl
 - LangGraph
 - LangSmith
 
----
-
 ## 🧩 System Architecture
 
 The system follows a **pipeline-based multi-agent workflow**:
 
-Meeting Notes
-
-↓
-
-Meeting Parser Agent
-
-↓
-
-Action Item Extractor
-
-↓
-
-Priority Classifier
-
-↓
-
-Human Approval (HIL)
-
-↓
-
-Export Tasks (TXT + JSON)
-
-
----
+  <img width="317" height="636" alt="Screenshot 2026-03-18 132444" src="https://github.com/user-attachments/assets/b89c383e-207f-4f10-9bcc-c053561ae5fd" />
 
 ## 🤖 Agents Description
 
@@ -51,22 +27,16 @@ Export Tasks (TXT + JSON)
 - Cleans and restructures them into meaningful, readable text
 - Removes ambiguity and noise
 
----
-
 ### 2. Action Item Extractor
 - Analyzes parsed notes
 - Identifies actionable tasks
 - Converts them into structured action items
-
----
 
 ### 3. Priority Classifier Agent
 - Assigns:
   - **Priority** (HIGH / MEDIUM / LOW)
   - **Team Ownership** (Backend / Frontend / Platform, etc.)
 - Adds additional context like descriptions if needed
-
----
 
 ## 👤 Human-in-the-Loop (HIL)
 
@@ -81,8 +51,6 @@ Users can:
 - Improves accuracy  
 - Enables human validation  
 - Prevents incorrect automation  
-
----
 
 ## 📤 Export Node
 
@@ -103,8 +71,6 @@ Once approved, tasks are exported into:
   - Jira / ticketing systems  
   - Automation pipelines  
 
----
-
 ## ⚙️ Key Features
 
 - Multi-agent workflow using LangGraph  
@@ -112,9 +78,7 @@ Once approved, tasks are exported into:
 - Human-in-the-loop approval system  
 - Dual export (TXT + JSON)  
 - Stateful execution with checkpointing  
-- Modular and extensible architecture  
-
----
+- Modular and extensible architecture
 
 ## 🧪 Example
 
@@ -133,8 +97,6 @@ Also checkout page UI breaks on mobile devices.
 - Add retry logic to Kafka consumer → MEDIUM → Platform  
 - Fix mobile UI issues on checkout → HIGH → Frontend  
 
----
-
 ## 🏁 Getting Started
 
 1. Clone the repository  
@@ -146,7 +108,7 @@ Also checkout page UI breaks on mobile devices.
 
 5. Execute the LangGraph pipeline
 
-### 📌 Future Enhancements
+## 📌 Future Enhancements
 
 1. Jira / ServiceNow integration
 
@@ -156,7 +118,7 @@ Also checkout page UI breaks on mobile devices.
 
 4. Smarter prioritization using historical data
 
-### 💡 Notes
+## 💡 Notes
 
 This is a Proof of Concept (POC) for AI-driven workflow automation
 
