@@ -1,0 +1,18 @@
+Task 1
+Title      : Fix mobile UI issues on checkout page
+Severity   : HIGH
+Team       : Frontend
+Description: Address UI issues on the checkout page specifically for mobile devices to enhance user experience.
+--------------------------------------------------
+Task 2
+Title      : Implement retry logic for Kafka consumer
+Severity   : MEDIUM
+Team       : Platform
+Description: Add retry logic to the Kafka consumer to handle crashes and improve system reliability.
+--------------------------------------------------
+Task 3
+Title      : Investigate and resolve login timeout issues
+Severity   : LOW
+Team       : Backend
+Description: Investigate the cause of login timeouts and implement a solution to reduce them, as this impacts user authentication flow.
+--------------------------------------------------

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Fix mobile UI issues on checkout page",
+    "description": "Address UI issues on the checkout page specifically for mobile devices to enhance user experience.",
+    "priority": "HIGH",
+    "team": "Frontend"
+  },
+  {
+    "title": "Implement retry logic for Kafka consumer",
+    "description": "Add retry logic to the Kafka consumer to handle crashes and improve system reliability.",
+    "priority": "MEDIUM",
+    "team": "Platform"
+  },
+  {
+    "title": "Investigate and resolve login timeout issues",
+    "description": "Investigate the cause of login timeouts and implement a solution to reduce them, as this impacts user authentication flow.",
+    "priority": "LOW",
+    "team": "Backend"
+  }
+]
